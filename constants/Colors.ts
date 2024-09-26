@@ -1,26 +1,33 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+export default {
+    mainColor: '#228B22',
+    mainColorCard: '#1E7B1D',
+    mainColorHover: '#196B18',
+    mainColorDark: '#034703',
+    mainColorGlow: '#A5E2AB',
+    mainColorLight: '#D1FFD9',
+    mainColorTip: '#EEFAEE',
+    colorWhite: '#FFFFFF',
+    colorWhiteOne: '#F0F3F5',
+    colorWhiteTwo: '#F4F4F4',
+    colorWhiteThree: '#DFDFDF',
+    colorWhiteFour: '#FDFDFD',
+    colorWhiteFive: '#DEDEDE',
+    colorWhiteSix: '#F3F3F3',
+    colorWhiteSeven: '#EAEAEA',
+    colorWhiteEight: '#FFF5F5',
+    colorWhiteNine: '#F9F9F9',
+    colorDark: '#241F1F',
+    colorDarkOne: '#4D4A4A',
+    colorDarkTwo: '#625F5F',
+    colorText: '#8C8A8A',
+    colorGray: '#777474',
+    colorGrayTwo: '#A19F9F',
+    colorGrayThree: '#CAC9C9',
+    colorGrayFour: '#F3F6F6',
+    colorGrayDot: '#B9B9B9',
+    colorTextInput: '#393535',
+    mainColorCardDanger: '#773800',
+    mainColorTipDanger: '#FFF6EE',
+    mainColorCardCalm: '#003581',
+    mainColorTipCalm: '#EEF5FF',
 };
